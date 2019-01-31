@@ -7,8 +7,8 @@ client.on('ready', () => {
 
 
 client.on('ready',async () => {
-  let GUILDID = '507575194001473537'; // اي دي السيرفر
-  let CHANNELID = '513702699519180800'; // اي دي الروم
+  let GUILDID = '540619607841701920'; // اي دي السيرفر
+  let CHANNELID = '540644189558276117'; // اي دي الروم
   voiceStay(GUILDID, CHANNELID);
   function voiceStay(guildid, channelid) {
     if(!guildid) throw new Error('Syntax: voiceStay function requires guildid');
@@ -26,4 +26,4 @@ client.on('ready',async () => {
     }
   }
 });
-client.login('NTA4MjYwMzExMzU1MDk3MDk4.DzDMZQ.G2C7o5mzv6CvEexG-7RrKVf_uzg');
+client.login(Procces.env.BOT_TOKEN);
