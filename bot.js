@@ -26,4 +26,4 @@ client.on('ready',async () => {
     }
   }
 });
-client.login(Procces.env.BOT_TOKEN);
+client.login(procces.env.BOT_TOKEN);
